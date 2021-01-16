@@ -1,0 +1,17 @@
+print ("    Buat Akun")
+usr = input("Masukkan Username \n")
+passw = input ("Masukkan Password\n")
+print("SELAMAT AKUN ANDA BERHASIL DIBUAT\n")
+print ("Silahkan Login")
+login = True
+while login:
+    vuser = input ("Masukkan Username\n")
+    vpass = input ("Masukkan Password\n")
+    if vuser == usr:
+        if vpass == passw :
+            login = False
+        print ("Selamat Masuk")
+    else :
+        print ("username salah / password\n")
+        print ("LOGIN ULANG")
+        login = True

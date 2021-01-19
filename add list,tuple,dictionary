@@ -1,7 +1,7 @@
 list = ["kambing","babi","anjing"]
 tuple = (1,2,3,4,5,6)
 dictionary = {'nama':'jaiz','ttl':'kebumen'}
-print ("cara mengubah elemen")
+print ("cara menambahkan elemen")
 print ("\n")
 print (list)
 listbaru = list + ["kodok"]

@@ -1,0 +1,17 @@
+list = ["kambing","babi","anjing"]
+tuple = (1,2,3,4,5,6)
+dictionary = {'nama':'jaiz','ttl':'kebumen'}
+print ("cara mengubah elemen")
+print ("\n")
+print (list)
+list[2] = "kodok"
+print (list)
+print("\n")
+print (tuple)
+# tuple tidak dapat melakukan perubahan elemen :D
+print (tuple)
+print ("\n")
+print (dictionary)
+dictionary['ttl'] = '051201'
+print (dictionary)
+print ("\n\n")

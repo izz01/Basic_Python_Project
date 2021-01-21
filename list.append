@@ -1,0 +1,6 @@
+hewan = ["anjing","babi","monyet",]
+print ("Masukkan namamu")
+a = input()
+hewan.append(a)
+print ("pilihanmu adalah",a,"jadi daftarnya adalah ",hewan)
+print (hewan)
